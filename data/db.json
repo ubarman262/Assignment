@@ -1,0 +1,63 @@
+{
+  "budgets": [
+    {
+      "name": "Finance",
+      "description": "Finance Budget 2",
+      "type": "DBU",
+      "period": "YEARLY",
+      "scope": "Global",
+      "start": "Jan 2021",
+      "end": "Mar 2025",
+      "status": {
+        "cost": "2648.58",
+        "budget": "8000",
+        "unit": "DBUs"
+      },
+      "actions": [
+        "Trends",
+        "Changeback"
+      ],
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Finance Budget",
+      "description": "Finance Budget",
+      "type": "DBU",
+      "period": "MONTHLY",
+      "start": "March 2022",
+      "end": "June 2022",
+      "scope": "Workspace",
+      "status": {
+        "cost": 1423.89,
+        "budget": 200,
+        "unit": "DBUs"
+      },
+      "actions": [
+        "Trends",
+        "Changeback",
+        "Optimize"
+      ]
+    },
+    {
+      "name": "Finance Budget",
+      "description": "Finance Budget",
+      "type": "DBU",
+      "period": "MONTHLY",
+      "scope": "Global",
+      "start": "Invalid date",
+      "end": "Invalid date",
+      "status": {
+        "cost": "4648.58",
+        "budget": 5000,
+        "unit": "DBUs"
+      },
+      "actions": [
+        "Trends",
+        "Changeback",
+        "Optimize"
+      ],
+      "id": 3
+    }
+  ]
+}

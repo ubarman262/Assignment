@@ -1,0 +1,32 @@
+.chip {
+    display: inline-flex;
+    flex-direction: row;
+    background-color: #444964;
+    border: none;
+    cursor: default;
+    outline: none;
+    padding: 0;
+    font-size: 10px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    white-space: nowrap;
+    align-items: center;
+    border-radius: 16px;
+    vertical-align: middle;
+    text-decoration: none;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 1px;
+}
+
+.chip-content {
+    cursor: inherit;
+    display: flex;
+    align-items: center;
+    user-select: none;
+    white-space: nowrap;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin: 2px;
+}
